@@ -22,6 +22,6 @@ const user: User = {
         street: "sdf",
         city: "London"
     }
-}
+};
 
-renderUserDetails(user)
+renderUserDetails(user);
