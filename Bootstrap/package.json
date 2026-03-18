@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.8"
-  }
+  },
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "main": "indeterminate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
