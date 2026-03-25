@@ -14,6 +14,10 @@ function renderUserDetails(user: User) {
     console.log(user.name, user.age)
 }
 
+function renderUserDetails1(user: Pick<User, "name"| "age">) {
+    console.log(user.name, user.age)
+}
+
 const user: User = {
     id: "ads",
     name: "Kyle",
@@ -25,3 +29,8 @@ const user: User = {
 };
 
 renderUserDetails(user);
+
+//NB! selleks, et näha konsoolis tulemust
+//1 tsc tsfailiNimi.ts
+//2 genereerib js faili
+//33 node index.js käsklus tuleb
