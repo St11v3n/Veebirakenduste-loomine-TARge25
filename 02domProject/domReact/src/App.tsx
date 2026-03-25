@@ -70,7 +70,6 @@ function App() {
           Need on kõik DOM-i elemendid, mida saab JavaScripti abil manipuleerida.
 
         </p>
-      </section>
 
       <div className="ticks"></div>
 
