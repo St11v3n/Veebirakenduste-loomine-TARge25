@@ -1,11 +1,23 @@
 body {
   background-color: black;
   color: white;
+  background-image: url(./images/black-background.jpg);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   text-align: center;
 }
 
+button.menubuttons {
+  margin-left: 750px;
+}
 
+p {
+  font-size: 20px; 
+}
+
+button:hover {
+  background-color: green;
+}
 
